@@ -69,7 +69,7 @@ export default function Footer() {
                             <div className="flex flex-row gap-3 items-center text-gray-400 hover:text-orange-600 transition">
                                 <MapPinIcon className="h-5 w-5"/>
                                 <Typography variant="small">
-                                    Cité AADL 1000lgts bt°5 n°11 berouagi, El harrach
+                                    Cité AADL Batiment n°14 P°22 Bab-Ezzouar, Alger
                                 </Typography>
                             </div>
                             <div className="flex flex-row gap-3 items-center text-gray-400 hover:text-orange-600 transition">

@@ -3,6 +3,7 @@
 import Image from "next/image";
 import  { useState } from 'react'
 import { Typography, Input, Button  } from "@material-tailwind/react";
+import CvDownloadButton from "../_ReusableComponents/CvDownloadButton";
 
 export default function HeroSection() {
 
@@ -21,7 +22,8 @@ return (
                     and
                     adaptable problem solver. Let's bring your projects to life!
                 </Typography>
-                <div className="relative flex w-full max-w-[24rem] py-4">
+                <CvDownloadButton />
+                {/* <div className="relative flex w-full max-w-[24rem] py-4">
                     <Input
                         type="email"
                         label="Email Address"
@@ -41,7 +43,7 @@ return (
                     >
                         Subscribe
                     </Button>
-                </div>
+                </div> */}
             </div>
             <div className="my-image self-center">
                 <Image src="/islamnasseur.png" width={300} height={250} alt="islamnasseur_image" />

@@ -27,7 +27,7 @@ export default function Projects() {
             technology: "React - NextJS",
             url: "/",
             logo: "/logo.png",
-            background: "bg-[url('/projects_backgrounds/upgradecc-background.png')]",
+            background: "bg-[url('/hero_section_background3.jpg')]",
             hover_effect_color: "hover:shadow-md hover:shadow-red-900 transition"
         }
     ]
@@ -36,13 +36,13 @@ export default function Projects() {
           label: "Mobile-dev",
           value: "mobiledev",
           projects: [{
-            name: "Spex Dev",
-            type: "Management app",
+            name: "NDIF",
+            type: "End-user app",
             technology: "ReactNative",
-            url: "/",
-            logo: "/logo.png",
-            background: "bg-[url('/projects_backgrounds/upgradecc-background.png')]",
-            hover_effect_color: "hover:shadow-md hover:shadow-orange-900 transition"
+            url: "https://play.google.com/store/search?q=ndif&c=apps",
+            logo: "/projects_logos/ndif.png",
+            background: "bg-[url('/hero_section_background3.jpg')]",
+            hover_effect_color: "hover:shadow-md hover:shadow-green-900 transition"
         }
     ]
         },
@@ -51,32 +51,14 @@ export default function Projects() {
           label: "MERN",
           value: "mern",
           projects: [{
-            name: "Lucerna",
-            type: "E-commerce",
-            technology: "Full-Javascript",
-            url: "https://lucernacreation.com/",
-            logo: "",
-            background: "bg-[url('/projects_backgrounds/upgradecc-background.png')]",
-            hover_effect_color: "hover:shadow-md hover:shadow-orange-900 transition"
-        },
-        {
-            name: "SneakerSouk",
-            type: "E-commerce",
-            technology: "Full-javascript",
+            name: "NDIF",
+            type: "Dashboard app",
+            technology: "MERN Stack",
             url: "",
-            logo: "",
-            background: "bg-[url('/projects_backgrounds/upgradecc-background.png')]",
-            hover_effect_color: "hover:shadow-md hover:shadow-orange-900 transition"
+            logo: "/projects_logos/ndif.png",
+            background: "bg-[url('/hero_section_background3.jpg')]",
+            hover_effect_color: "hover:shadow-md hover:shadow-green-900 transition"
         },
-        {
-            name: "L.C.A",
-            type: "E-commerce",
-            technology: "Full-javascript",
-            url: "",
-            logo: "",
-            background: "bg-[url('/projects_backgrounds/upgradecc-background.png')]",
-            hover_effect_color: "hover:shadow-md hover:shadow-orange-900 transition"
-        }
     ]
         },
      
@@ -87,7 +69,7 @@ export default function Projects() {
             name: "Lucerna",
             type: "E-commerce",
             technology: "Figma",
-            url: "https://lucernacreation.com/",
+            url: "",
             logo: "",
             background: "bg-[url('/projects_backgrounds/upgradecc-background.png')]",
             hover_effect_color: "hover:shadow-md hover:shadow-orange-900 transition"
@@ -95,7 +77,7 @@ export default function Projects() {
         {
             name: "SneakerSouk",
             type: "E-commerce",
-            technology: "Adobe XD",
+            technology: "Figma",
             url: "",
             logo: "",
             background: "bg-[url('/projects_backgrounds/upgradecc-background.png')]",
@@ -156,7 +138,17 @@ export default function Projects() {
                 image_alt: "Lucerna logo",
                 background: "bg-[url('/projects_backgrounds/kynirkit-background.jpg')]",
                 hover_effect_color: "hover:shadow-md hover:shadow-green-200 transition"
-            }
+            },
+            {
+                name: "Huntead",
+                type: "RH Website",
+                technology: "Wordpress",
+                url: "https://huntead.com/",
+                logo: "/projects_logos/huntead-logo-blanc.png",
+                image_alt: "Huntead logo",
+                background: "bg-[url('/hero_section_background3.jpg')]",
+                hover_effect_color: "hover:shadow-md hover:shadow-cyan-400 transition"
+            },
         ]
         },
       ];
@@ -193,38 +185,38 @@ export default function Projects() {
                                 shadow={false}
                                 className={"relative grid h-[18rem] w-full max-w-[15rem] items-end justify-center overflow-hidden text-center flex-1 basis-1/2 md:basis-1/3 mx-5 my-2 " + project.hover_effect_color }
                                 >
-                                <Link href={project.url}>
-                                <CardHeader
-                                    floated={false}
-                                    shadow={false}
-                                    color="transparent"
-                                    className={"absolute inset-0 m-0 h-full w-full rounded-none bg-cover bg-center " + project.background } //make spaces between the plus (+) so that all the classes work.
-                                >
-                                    <div className="to-bg-black-10 absolute inset-0 h-full w-full bg-gradient-to-t from-black/80 via-black/80" />
-                                    <Image src={project.logo} width={100} height={100} alt={project.image_alt} className="mx-auto pt-2 w-50 place-center project-logo"/>
-                                </CardHeader>
-                                <CardBody className="relative px-6 md:px-12">
-                                    <Typography
-                                        variant="h5"
-                                        color="white"
-                                        className="mb-6 font-medium leading-[1.5]"
+                                <Link href={project.url} target="_blank">
+                                    <CardHeader
+                                        floated={false}
+                                        shadow={false}
+                                        color="transparent"
+                                        className={"absolute inset-0 m-0 h-full w-full rounded-none bg-cover bg-center " + project.background } //make spaces between the plus (+) so that all the classes work.
                                     >
-                                        {project.name}
-                                    </Typography>
-                                    <Typography variant="h6" className="text-gray-400">
-                                        {project.type}
-                                    </Typography>
-                                    <Typography variant="h6" className="mb-4 text-gray-400">
-                                        {project.technology}
-                                    </Typography>
-                                    <Avatar
-                                        size="md"
-                                        variant="circular"
-                                        alt="Islam Nasseur"
-                                        className="border-2 border-orange-400"
-                                        src="/islamnasseur.png"
-                                    />
-                                </CardBody>
+                                        <div className="to-bg-black-10 absolute inset-0 h-full w-full bg-gradient-to-t from-black/80 via-black/80" />
+                                        <Image src={project.logo} width={100} height={100} alt={project.image_alt} className="mx-auto pt-2 w-50 place-center project-logo"/>
+                                    </CardHeader>
+                                    <CardBody className="relative px-6 md:px-12">
+                                        <Typography
+                                            variant="h5"
+                                            color="white"
+                                            className=" font-medium leading-[1.5]"
+                                        >
+                                            {project.name}
+                                        </Typography>
+                                        <Typography variant="h6" className="text-gray-400">
+                                            {project.type}
+                                        </Typography>
+                                        <Typography variant="h6" className="mb-4 text-gray-400">
+                                            {project.technology}
+                                        </Typography>
+                                        <Avatar
+                                            size="md"
+                                            variant="circular"
+                                            alt="Islam Nasseur"
+                                            className="border-2 border-orange-400"
+                                            src="/islamnasseur.png"
+                                        />
+                                    </CardBody>
                                 </Link>
                             </Card>
                         
