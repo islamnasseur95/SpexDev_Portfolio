@@ -10,55 +10,55 @@ export default function Testimonials() {
             fullName: "Adel Tadjerouni",
             job: "Full stack developer",
             avatarImage: "/testimonial_images/adel.png",
-            text: "I found solution to all my design needs from Creative Tim. I use them as a freelancer in my hobby projects for fun! And its really affordable, very humble guys !!!"
+            text: "His ability to dissect and resolve complex issues is a testament to his expertise as a full stack developer. Collaborating with him was a privilege that significantly elevated the quality and efficiency of our projects"
         },
         {
             fullName: "Fella Zellag",
             job: "Project Manager",
             avatarImage: "/testimonial_images/fella.png",
-            text: "I found solution to all my design needs from Creative Tim. I use them as a freelancer in my hobby projects for fun! And its really affordable, very humble guys !!!"
+            text: "Working with Islam was a game-changer for our projects. His keen attention to detail, innovative ideas, and exceptional problem-solving skills were achieving our goals efficiently. His collaborative spirit and effective communication made him an invaluable asset to the team."
         },
         {
             fullName: "Anis",
             job: "IT service director",
             avatarImage: "/testimonial_images/anis.png",
-            text: "I found solution to all my design needs from Creative Tim. I use them as a freelancer in my hobby projects for fun! And its really affordable, very humble guys !!!"
+            text: "Islam's exemplary technical proficiency and collaborative leadership were fundamental to our project achievements in Emploipartner. His adept problem-solving skills streamlined workflows, ensuring precise and timely deliveries"
         },
         {
             fullName: "Djanet",
             job: "Project Manager",
             avatarImage: "/testimonial_images/djanet.png",
-            text: "I found solution to all my design needs from Creative Tim. I use them as a freelancer in my hobby projects for fun! And its really affordable, very humble guys !!!"
+            text: "Islam's contributions were indispensable to our project's success. His meticulous attention to detail and innovative problem-solving consistently impressed the team. His collaborative spirit and clear communication streamlined our workflow, making him a standout asset"
         },
         {
             fullName: "Hichem",
             job: "Front-end developer",
             avatarImage: "/testimonial_images/hichem.png",
-            text: "I found solution to all my design needs from Creative Tim. I use them as a freelancer in my hobby projects for fun! And its really affordable, very humble guys !!!"
+            text: "Islam's mentorship has been a game-changer in my growth as a web developer. His expertise and patient guidance in troubleshooting technical challenges have been invaluable. Working alongside him, I've gained a deeper understanding of development nuances and greatly improved my skills"
         },
         {
             fullName: "Noor",
             job: "Full-stack developer",
             avatarImage: "/testimonial_images/noor.png",
-            text: "I found solution to all my design needs from Creative Tim. I use them as a freelancer in my hobby projects for fun! And its really affordable, very humble guys !!!"
+            text: "Islam's technical prowess is nothing short of extraordinary. His keen problem-solving abilities have been a saving grace on numerous projects. His collaboration has elevated the entire team's performance, making him an invaluable asset to any development endeavor"
         },
         {
             fullName: "Imene",
             job: "Project Manager",
             avatarImage: "/testimonial_images/imy.png",
-            text: "I found solution to all my design needs from Creative Tim. I use them as a freelancer in my hobby projects for fun! And its really affordable, very humble guys !!!"
+            text: "Islam's technical expertise was a game-changer for our projects. His swift and effective solutions to complex issues were invaluable. His collaborative spirit and dedication to excellence significantly elevated our team's performance"
         },
         {
             fullName: "Naim",
             job: "CEO of IT-GB @GBC",
             avatarImage: "/testimonial_images/naim.png",
-            text: "I found solution to all my design needs from Creative Tim. I use them as a freelancer in my hobby projects for fun! And its really affordable, very humble guys !!!"
+            text: "Islam's web development expertise revolutionized our company departments, driving ITGB's growth. His commitment to excellence and unwavering dedication to our vision were invaluable. We're privileged to have worked with him as a pivotal force in our success story"
         },
         {
             fullName: "Ratiba Ouzlifi",
             job: "Full-stack developer",
             avatarImage: "/testimonial_images/ratiba.png",
-            text: "I found solution to all my design needs from Creative Tim. I use them as a freelancer in my hobby projects for fun! And its really affordable, very humble guys !!!"
+            text: "Islam's humility and eagerness to learn have greatly impacted my growth as a web developer. His receptiveness to new skills and concepts in reflects a true passion for development. Collaborating with him has been an enriching experience, and I'm grateful for the knowledge he's shared"
         },
         {
             fullName: "Halima",
