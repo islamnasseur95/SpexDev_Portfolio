@@ -61,7 +61,7 @@ export default function Footer() {
             <div className="mx-auto w-full max-w-7xl px-6">
                 <div className="grid grid-cols-1 justify-between gap-4 md:grid-cols-2">
                     <div>
-                        <Link href="/">
+                        <Link href="/" as={'image'}>
                             <Image src="/logo.png" width={70} height={70} alt='spex_logo' />
                         </Link>
                         <hr className="my-4 w-96"></hr>
