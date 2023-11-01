@@ -65,8 +65,9 @@ return (
 <div>
     <Button className="contact-button" onClick={handleOpen}>Contact</Button>
     <Dialog size="xs" open={open} handler={handleOpen} className="dialog shadow-none">
-        <form onSubmit={handleSubmit((data) => {
-             sendContactForm(data)
+        <form method="post" onSubmit={handleSubmit((data) => {
+            console.log(data)
+            sendContactForm(data);
         })}>    
             <Card className="mx-auto w-full max-w-[24rem] bg-transparent p-2">
                 <CardBody className="flex flex-col gap-4">
