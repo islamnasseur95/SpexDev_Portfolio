@@ -1,3 +1,5 @@
+'use client'
+
 import { useState } from "react";
 import { Button, Dialog, Card, CardBody, CardFooter, Typography, Input, Textarea } from "../../materialTailwindExports";
 import Link from "next/link";
@@ -11,16 +13,15 @@ import { useForm } from "react-hook-form";
 
 export default function ContactButton () {
 
-    const { register, handleSubmit, formState:{errors} } = useForm({
-        fullName: "",
-        email: "",
-        subject: "",
-        message: "",
-    });
+    const { register, handleSubmit, formState:{errors} } = useForm({ initValues });
     console.log(errors)
 
     const [open, setOpen] = useState(false);
     const handleOpen = () => setOpen((cur) => !cur);
+
+    function onSubmit(data) {
+        sendContactForm(data);
+    }
 
     // const [formData, setFormData ] = useState(initStates);
     // const { values, isLoading } = formData;
@@ -65,10 +66,7 @@ return (
 <div>
     <Button className="contact-button" onClick={handleOpen}>Contact</Button>
     <Dialog size="xs" open={open} handler={handleOpen} className="dialog shadow-none">
-        <form method="post" onSubmit={handleSubmit((data) => {
-            console.log(data)
-            sendContactForm(data);
-        })}>    
+        <form method="post" onSubmit={handleSubmit(onSubmit)}>    
             <Card className="mx-auto w-full max-w-[24rem] bg-transparent p-2">
                 <CardBody className="flex flex-col gap-4">
                     <Link href="/" className="self-center">

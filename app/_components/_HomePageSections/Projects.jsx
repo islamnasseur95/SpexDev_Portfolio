@@ -66,22 +66,40 @@ export default function Projects() {
           label: "UX/UI",
           value: "uxui",
           projects: [{
-            name: "Lucerna",
-            type: "E-commerce",
+            name: "Mezghenna",
+            type: "Education website",
             technology: "Figma",
-            url: "",
-            logo: "",
-            background: "bg-[url('/projects_backgrounds/upgradecc-background.png')]",
+            url: "https://www.figma.com/file/QCjFhrliUn2RIc8WxCCczF/Mezghena-Project?type=design&node-id=0%3A1&mode=design&t=xcEfXI0ZBhGN0uof-1",
+            logo: "/projects_logos/mezghena_logo.png",
+            background: "bg-[url('/hero_section_background3.jpg')]",
+            hover_effect_color: "hover:shadow-md hover:shadow-blue-900 transition"
+        },
+        {
+            name: "B2BLab",
+            type: "SuperAdmin",
+            technology: "Figma",
+            url: "https://www.figma.com/file/CR5nvAX34Oo96GBd6GJxHc/B2B-FrontEnd-Prototype?type=design&node-id=0%3A1&mode=design&t=KlnW1YefoKfz1mXz-1",
+            logo: "/projects_logos/b2b_logo.png",
+            background: "bg-[url('/hero_section_background3.jpg')]",
+            hover_effect_color: "hover:shadow-md hover:shadow-pink-900 transition"
+        },
+        {
+            name: "UpgradeCC",
+            type: "prod Prototype",
+            technology: "Figma",
+            url: "https://www.figma.com/file/BQYx4uBVO5ZfwS7da8xcTr/Untitled?type=design&node-id=0%3A1&mode=design&t=AdVGtqSP1syOv5jN-1",
+            logo: "/projects_logos/logo-upgradcc-reversed.png",
+            background: "bg-[url('/hero_section_background3.jpg')]",
             hover_effect_color: "hover:shadow-md hover:shadow-orange-900 transition"
         },
         {
-            name: "SneakerSouk",
-            type: "E-commerce",
+            name: "Kynirkit",
+            type: "Website Prototype",
             technology: "Figma",
-            url: "",
-            logo: "",
-            background: "bg-[url('/projects_backgrounds/upgradecc-background.png')]",
-            hover_effect_color: "hover:shadow-md hover:shadow-orange-900 transition"
+            url: "https://www.figma.com/file/jIThvkdk2teo83dcfSwGky/Kynirkit-Emporio-prototype?type=design&node-id=0%3A1&mode=design&t=CvyKuccshKeor3UO-1",
+            logo: "/projects_logos/kynirkit-logo.png",
+            background: "bg-[url('/hero_section_background3.jpg')]",
+            hover_effect_color: "hover:shadow-md hover:shadow-green-200 transition"
         }
     ]
         },

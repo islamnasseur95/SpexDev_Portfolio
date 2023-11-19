@@ -12,7 +12,7 @@ export default function SocialNetworkLinks() {
                         />
                     </svg>
                 </Link>
-                <Link href="https://www.instagram.com/islamnasseur/" target="_blank" className="transition-opacity hover:text-orange-600"> {/* Instagram icon  */}
+                <Link href="https://www.instagram.com/spexdev/" target="_blank" className="transition-opacity hover:text-orange-600"> {/* Instagram icon  */}
                     <svg className="h-5 w-5" fill="currentColor" viewBox="0 0 24 24" aria-hidden="true">
                         <path
                         fill-rule="evenodd"
